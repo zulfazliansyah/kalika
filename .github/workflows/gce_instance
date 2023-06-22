@@ -1,0 +1,11 @@
+gce_instance:
+  image_project: windows-cloud
+  image_name: windows-server-2016-dc-core-v20170913
+  platform: windows
+  zone: us-central1-a
+  cpu: 8
+  memory: 40GB
+  disk: 20
+
+task:
+  script: run-ci.bat
